@@ -3,7 +3,7 @@ import { Award, GraduationCap, BookOpen } from 'lucide-react';
 export default function Team() {
   const teamMembers = [
     {
-      name: '송 현 석',
+      name: 'Andrew Song',
       role: 'Head Director',
       education: 'Boston University Fine Arts (Magna Cum Laude)',
       desc: '단순한 입시 지도가 아닌, 작가로서의 정체성을 찾아주는 멘토링을 지향합니다. 지난 10년간 RISD, Yale, RCA 등 Top-Tier 합격생을 다수 배출했습니다.',

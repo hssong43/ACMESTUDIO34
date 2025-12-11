@@ -18,7 +18,7 @@ export default function Header() {
   const navLinks = [
     { name: '서비스', href: '/services' },
     { name: '포트폴리오', href: '/portfolio' },
-    { name: '수강료', href: '/pricing' },
+    { name: '프로그램', href: '/pricing' },
     { name: '강사진', href: '/team' },
     { name: '입시 진단', href: '/diagnostics' },
   ];

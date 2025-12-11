@@ -12,8 +12,7 @@ export default function Home() {
       <section className="relative h-screen flex items-center justify-center overflow-hidden bg-slate-900">
         <div 
           className="absolute inset-0 z-0 bg-cover bg-center opacity-50"
-          style={{ backgroundImage: "url('https://images.unsplash.com/photo-1513364776144-60967b0f800f?q=80&w=2071&auto=format&fit=crop')" }}
-        />
+          style={{ backgroundImage: "url('https://images.unsplash.com/photo-1597423244036-ef5020e83f3c?q=80&w=2574&auto=format&fit=crop')" }}         />
         <div className="relative z-10 text-center px-4 max-w-4xl mx-auto">
           <h1 className="text-4xl md:text-6xl font-serif font-bold text-white mb-6 leading-tight">
             작품이 말하지 못한 이야기를,<br />우리가 설계합니다.

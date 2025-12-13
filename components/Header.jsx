@@ -1,6 +1,7 @@
 "use client";
 import { useState, useEffect } from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 import { Menu, X } from 'lucide-react';
 
 export default function Header() {
@@ -34,8 +35,14 @@ export default function Header() {
       <div className="container mx-auto px-6 flex justify-between items-center">
         
         {/* Logo */}
-        <Link href="/" className="text-2xl font-serif font-bold text-white tracking-widest">
-          AGENCY<span className="text-yellow-500">.</span>
+        <Link href="/" className="flex items-center">
+          <Image
+            src={encodeURI('/images/Group 2.png')}
+            alt="AGENCY logo"
+            width={140}
+            height={40}
+            className="object-contain"
+          />
         </Link>
 
         {/* Desktop Navigation */}

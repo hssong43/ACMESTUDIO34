@@ -12,6 +12,7 @@ const portfolioItems = [
   { id: 6, title: "Plastic Ocean", subtitle: "환경 오염 설치 미술", category: "전시", img: "https://images.unsplash.com/photo-1544531586-fde5298cdd40?q=80&w=800", result: "Award Winner" },
 ];
 
+
 export default function Portfolio() {
   const [filter, setFilter] = useState('전체');
   

@@ -6,7 +6,7 @@ import { motion } from 'framer-motion';
 const portfolioItems = [
   { id: 1, title: "The Spectators", subtitle: "관조자들", category: "입시", img: "images/spectators.png", result: "RISD 합격" },
   { id: 2, title: "Past and Present", subtitle: "과거와 현재", category: "입시", img: "images/past and present.png", result: "Cornell AAP 장학생" },
-  { id: 3, title: "Visual Study of Cat", subtitle: "고양이 시각적 분석", category: "입시", img: "images/asfg.png", result: "Ideation" },
+  { id: 3, title: "Visual Study of Cat", subtitle: "고양이의 움직임 탐구", category: "입시", img: "images/asfg.png", result: "Ideation" },
   { id: 4, title: "Memory Archive", subtitle: "기억의 아카이빙", category: "레지던시", img: "https://images.unsplash.com/photo-1563089145-599997674d42?q=80&w=800", result: "RCA 합격" },
   { id: 5, title: "Urban Decay", subtitle: "도시의 붕괴", category: "입시", img: "https://images.unsplash.com/photo-1492691527719-9d1e07e534b4?q=80&w=800", result: "Cooper Union" },
   { id: 6, title: "Plastic Ocean", subtitle: "환경 오염 설치 미술", category: "전시", img: "https://images.unsplash.com/photo-1544531586-fde5298cdd40?q=80&w=800", result: "Award Winner" },

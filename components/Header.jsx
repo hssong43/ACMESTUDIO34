@@ -21,7 +21,7 @@ export default function Header() {
     { name: '포트폴리오', href: '/portfolio' },
     { name: '프로그램', href: '/pricing' },
     { name: '강사진', href: '/team' },
-    { name: '입시 진단', href: '/diagnostics' },
+    { name: '학생 자가 진단', href: '/diagnostics' },
   ];
 
   return (

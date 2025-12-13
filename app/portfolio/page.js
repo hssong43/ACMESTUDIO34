@@ -11,7 +11,7 @@ const portfolioItems = [
   { id: 5, title: "Urban Decay", subtitle: "도시의 붕괴", category: "입시", img: "https://images.unsplash.com/photo-1492691527719-9d1e07e534b4?q=80&w=800", result: "Cooper Union" },
   { id: 6, title: "Plastic Ocean", subtitle: "환경 오염 설치 미술", category: "전시", img: "https://images.unsplash.com/photo-1544531586-fde5298cdd40?q=80&w=800", result: "Award Winner" },
 ];
-
+ 
 
 export default function Portfolio() {
   const [filter, setFilter] = useState('전체');
